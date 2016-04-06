@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Automagically</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="js/printSliderValues.js"></script>
+  <script src="js/updateAndSearch.js"></script>
+</head>
+<body>
+	<h1>Automagically</h1>
+	<p>This tool allows the automatic generation of an advertising campaign based on a set of predefined criteria.</p>
+	<div id="wrapper">
+		<div id="formContainer">
+			<fieldset>
+				<legend>Search</legend>
+				<form>
+					<div id="budgetContainer">
+						<div id="budgetLabel">Budget (CHF):</div>
+						<div id="budgetInput">
+							<input type="range" name="budget" id="budgetSlider" min="1" max="11" value="1">
+							<input type="text" name="rangeValueBudget" id="rangeValueBudget" size="7">
+						</div>
+					</div>
+					
+					<div id="durationContainer">
+						<div id="durationLabel">Duration:</div>
+						<div id="durationInput">
+							<input type="range" name="duration" id="durationSlider" min="1" max="9" value="1">
+							<input type="text" name="rangeValueDuration" id="rangeValueDuration" size="7">
+						</div>
+					</div>
+					
+					<div id="amountContainer">
+						<div id="amountLabel">Amount of spaces:</div>
+						<div id="amountInput">
+							<input type="range" name="amount" id="amountSlider" min="1" max="5" value="1">
+							<input type="text" name="rangeValueAmount" id="rangeValueAmount" size="7">
+						</div>
+					</div>
+					
+					<div id="varietyContainer">
+						<div id="varietyLabel">Variety of spaces:</div>
+						<div id="varietyInput">
+							<input type="range" name="variety" id="varietySlider" min="1" max="5" value="1">
+							<input type="text" name="rangeValueVariety" id="rangeValueVariety" size="7">
+						</div>
+					</div>
+				</form>
+			</fieldset>	
+		<div id="resultContainer">
+			<div id="result"></div>			
+		</div>
+	</div>
+</body>
+</html>
