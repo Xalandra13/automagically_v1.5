@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* 
+	Automagically
+	14.04.15, db
+	Styles
+*/
+
+body {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-left: 15px;
+}
+
+fieldset{
+	width: 600px;
+	padding: 15px;
+}
+
+legend{
+	font-weight: bold;
+}
+
+#wrapper{
+	width: 1000px;
+}
+
+#budgetLabel{
+	float: left;
+	width: 120px;
+}
+ 
+#durationLabel{
+	float: left;
+	width: 120px;
+}
+ 
+#amountLabel{
+	float: left;
+	width: 120px;
+}
+
+#varietyLabel{
+	float: left;
+	width: 120px;
+}
+
+#result{
+	padding-top: 10px;
+}
+
+#result table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
