@@ -1,4 +1,4 @@
-# automagically_v1.5
+# Automagically
 An algorithm to suggest advertising spaces according to user requirements
 
 IPA 2015
