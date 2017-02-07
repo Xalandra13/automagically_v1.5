@@ -10,3 +10,6 @@ D.B.
 
 ### Document Version: 
 1.5
+
+### Technologies Used:
+HTML5, CSS3, JavaScript/jQuery, PHP, MySQL
