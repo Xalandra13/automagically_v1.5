@@ -5,11 +5,16 @@ The goal of this project is the creation of an internal web-tool that allows the
 
 ## Individuelle Praktische Arbeit (IPA) 2015
 
-### Author:
+This is a reference project which serves as a demo. 
+
+### Author
+
 D.B.
 
-### Document Version: 
+### Document Version
+
 1.5
 
-### Technologies Used:
-HTML5, CSS3, JavaScript/jQuery, PHP, MySQL
+### Technologies Used
+
+- HTML5, CSS3, JavaScript/jQuery, PHP, MySQL
