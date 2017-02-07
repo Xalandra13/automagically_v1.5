@@ -17,4 +17,4 @@ D.B.
 
 ### Technologies Used
 
-- HTML5, CSS3, JavaScript/jQuery, PHP, MySQL
+HTML5, CSS3, JavaScript/jQuery, PHP, MySQL
